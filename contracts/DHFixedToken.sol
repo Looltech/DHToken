@@ -4,8 +4,8 @@ pragma solidity ^0.4.18;
 contract DHFixedToken {
   // 1. Declare the metadata for the coin
   //    All of thse variables declared public constant - so available as functions
-  string public constant name = "DAPP Course Token";
-  string public constant symbol = "DCT";
+  string public constant name = "DH Fixed Token";
+  string public constant symbol = "DHF";
 
   // Token values are passed as integers so decimals is the number of decimals from righ
   // E.g., decimals = 2, value=100 interpretted as 1.00
